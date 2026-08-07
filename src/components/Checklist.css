@@ -1,0 +1,379 @@
+.checklist {
+
+    padding:80px 0;
+  
+  }
+  
+  
+  
+  .checklist h1 {
+  
+    font-size:42px;
+  
+    color:#141754;
+  
+    margin:25px 0 10px;
+  
+  }
+  
+  
+  
+  .checklist-subtitle {
+  
+    color:#555;
+  
+    font-size:18px;
+  
+  }
+  
+  
+  
+  
+  
+  /* =====================
+     PROGRESS
+  ===================== */
+  
+  
+  .progress-card {
+  
+    margin:40px 0 30px;
+  
+    background:#141754;
+  
+    padding:30px;
+  
+    border-radius:28px;
+  
+    color:white;
+  
+  }
+  
+  
+  
+  .progress-top {
+  
+    display:flex;
+  
+    justify-content:space-between;
+  
+    align-items:center;
+  
+    margin-bottom:25px;
+  
+  }
+  
+  
+  
+  .progress-top span {
+  
+    font-size:18px;
+  
+    font-weight:600;
+  
+  }
+  
+  
+  
+  .progress-top p {
+  
+    margin:8px 0 0;
+  
+    color:rgba(255,255,255,.7);
+  
+    font-size:14px;
+  
+  }
+  
+  
+  
+  .progress-top strong {
+  
+    font-size:42px;
+  
+    font-weight:800;
+  
+  }
+  
+  
+  
+  
+  
+  .progress-track {
+  
+    height:16px;
+  
+    background:rgba(255,255,255,.18);
+  
+    border-radius:20px;
+  
+    overflow:hidden;
+  
+  }
+  
+  
+  
+  .progress-value {
+  
+    height:100%;
+  
+    background:#AE0001;
+  
+    border-radius:20px;
+  
+    transition:.4s ease;
+  
+  }
+  
+  
+  
+  
+  
+  /* =====================
+     CHECKLIST BLOCK
+  ===================== */
+  
+  
+  .check-block {
+  
+    background:white;
+  
+    padding:35px;
+  
+    border-radius:28px;
+  
+    border:1px solid #e7e7ef;
+  
+  }
+  
+  
+  
+  
+  
+  /* этап */
+  
+  .check-stage {
+  
+    margin-bottom:35px;
+  
+  }
+  
+  
+  
+  .check-stage:last-child {
+  
+    margin-bottom:0;
+  
+  }
+  
+  
+  
+  .check-stage h3 {
+  
+    color:#141754;
+  
+    font-size:20px;
+  
+    margin-bottom:15px;
+  
+    display:flex;
+  
+    align-items:center;
+  
+  }
+  
+  
+  
+  .check-stage h3::before {
+  
+    content:"";
+  
+    width:8px;
+  
+    height:8px;
+  
+    background:#AE0001;
+  
+    border-radius:50%;
+  
+    margin-right:10px;
+  
+  }
+  
+  
+  
+  
+  
+  /* задача */
+  
+  
+  .check-item {
+  
+    display:flex;
+  
+    align-items:center;
+  
+    gap:15px;
+  
+    padding:18px 0;
+  
+    border-bottom:1px solid #eeeeee;
+  
+    cursor:pointer;
+  
+  }
+  
+  
+  
+  .check-item:last-child {
+  
+    border-bottom:none;
+  
+  }
+  
+  
+  
+  .check-item input {
+  
+    width:22px;
+  
+    height:22px;
+  
+    accent-color:#AE0001;
+  
+    cursor:pointer;
+  
+  }
+  
+  
+  
+  
+  
+  .check-item span {
+  
+    color:#141754;
+  
+    font-size:16px;
+  
+    line-height:1.4;
+  
+  }
+  
+  
+  
+  .check-item.completed span {
+  
+    text-decoration:line-through;
+  
+    opacity:.45;
+  
+  }
+  
+  
+  
+  
+  
+  
+  /* =====================
+     MOBILE
+  ===================== */
+  
+  
+  @media(max-width:768px){
+  
+  
+    .checklist {
+  
+      padding:40px 0;
+  
+    }
+  
+  
+  
+    .checklist h1 {
+  
+      font-size:30px;
+  
+    }
+  
+  
+  
+    .checklist-subtitle {
+  
+      font-size:16px;
+  
+    }
+  
+  
+  
+  
+  
+    .progress-card {
+  
+      padding:22px;
+  
+      border-radius:22px;
+  
+    }
+  
+  
+  
+    .progress-top strong {
+  
+      font-size:32px;
+  
+    }
+  
+  
+  
+    .progress-top span {
+  
+      font-size:16px;
+  
+    }
+  
+  
+  
+  
+  
+    .progress-track {
+  
+      height:12px;
+  
+    }
+  
+  
+  
+  
+  
+    .check-block {
+  
+      padding:20px;
+  
+      border-radius:22px;
+  
+    }
+  
+  
+  
+  
+  
+    .check-item {
+  
+      padding:15px 0;
+  
+      gap:12px;
+  
+    }
+  
+  
+  
+    .check-item span {
+  
+      font-size:14px;
+  
+    }
+  
+  
+  
+  }

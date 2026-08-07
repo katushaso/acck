@@ -1,0 +1,55 @@
+.back-button {
+
+    display: inline-flex;
+  
+    align-items: center;
+  
+    gap: 8px;
+  
+    margin-bottom: 30px;
+  
+    padding: 10px 18px;
+  
+    background: white;
+  
+    border: 1px solid #e5e5ee;
+  
+    border-radius: 12px;
+  
+    color: #141754;
+  
+    font-size: 15px;
+  
+    font-weight: 600;
+  
+    cursor: pointer;
+  
+    transition: .2s ease;
+  
+  }
+  
+  
+  
+  .back-button:hover {
+  
+    background: #f0eef8;
+  
+    transform: translateX(-3px);
+  
+  }
+  
+  
+  
+  @media(max-width:768px){
+  
+    .back-button {
+  
+      margin-bottom:20px;
+  
+      padding:9px 14px;
+  
+      font-size:14px;
+  
+    }
+  
+  }

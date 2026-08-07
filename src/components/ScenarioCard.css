@@ -1,0 +1,216 @@
+.scenario-card {
+
+    background: white;
+  
+    border-radius: 28px;
+  
+    padding: 30px;
+  
+    display: flex;
+  
+    gap: 25px;
+  
+    border: 1px solid #e5e5ee;
+  
+    transition: .3s ease;
+  
+  }
+  
+  
+  .scenario-card:hover {
+  
+    transform: translateY(-5px);
+  
+    box-shadow: 0 15px 35px rgba(20,23,84,.12);
+  
+  }
+  
+  
+  
+  .scenario-number {
+  
+    font-size: 42px;
+  
+    font-weight: 800;
+  
+    color: #A79DCB;
+  
+  }
+  
+  
+  
+  .scenario-content {
+  
+    flex: 1;
+  
+  }
+  
+  
+  
+  .scenario-level {
+  
+    display: inline-block;
+  
+    background: #f0eef8;
+  
+    color: #141754;
+  
+    padding: 6px 14px;
+  
+    border-radius: 30px;
+  
+    font-size: 14px;
+  
+  }
+  
+  
+  
+  .scenario-content h3 {
+  
+    margin: 18px 0 12px;
+  
+    color: #141754;
+  
+    font-size: 26px;
+  
+  }
+  
+  
+  
+  .scenario-content p {
+  
+    color: #555;
+  
+    line-height: 1.5;
+  
+  }
+  
+  
+  
+  .scenario-info {
+  
+    display: flex;
+  
+    gap: 40px;
+  
+    margin: 25px 0;
+  
+  }
+  
+  
+  
+  .scenario-info div {
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    gap: 5px;
+  
+  }
+  
+  
+  
+  .scenario-info span {
+  
+    font-size: 13px;
+  
+    color: #777;
+  
+  }
+  
+  
+  
+  .scenario-info strong {
+  
+    color: #141754;
+  
+  }
+  
+  
+  
+  /* Кнопка-ссылка */
+  
+  .scenario-button {
+  
+    display: inline-block;
+  
+    border: none;
+  
+    background: #141754;
+  
+    color: white;
+  
+    padding: 12px 24px;
+  
+    border-radius: 14px;
+  
+    cursor: pointer;
+  
+    font-weight: 600;
+  
+    text-decoration: none;
+  
+    transition: .3s ease;
+  
+  }
+  
+  
+  
+  .scenario-button:hover {
+  
+    background: #A79DCB;
+  
+    color: #141754;
+  
+  }
+  
+  
+  
+  /* Адаптив */
+  
+  @media(max-width:600px){
+  
+  
+    .scenario-card {
+  
+      flex-direction: column;
+  
+      padding: 22px;
+  
+    }
+  
+  
+    .scenario-number {
+  
+      font-size: 34px;
+  
+    }
+  
+  
+    .scenario-content h3 {
+  
+      font-size: 22px;
+  
+    }
+  
+  
+    .scenario-info {
+  
+      flex-direction: column;
+  
+      gap: 15px;
+  
+    }
+  
+  
+    .scenario-button {
+  
+      width: 100%;
+  
+      text-align: center;
+  
+    }
+  
+  
+  }

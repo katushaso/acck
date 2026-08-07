@@ -1,0 +1,403 @@
+.metrics {
+
+  padding:80px 0;
+
+}
+
+
+
+/* HEADER */
+
+.metrics-header {
+
+  max-width:700px;
+
+}
+
+
+
+.metrics-header h1 {
+
+  font-size:42px;
+
+  color:#141754;
+
+  margin:25px 0 10px;
+
+}
+
+
+
+.metrics-header p {
+
+  color:#555;
+
+  font-size:18px;
+
+  line-height:1.5;
+
+}
+
+
+
+
+
+
+/* PROGRESS */
+
+.metrics-progress {
+
+  margin:40px 0;
+
+  background:white;
+
+  border:1px solid #e7e7ef;
+
+  padding:30px;
+
+  border-radius:28px;
+
+}
+
+
+
+.metrics-progress > div:first-child {
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+
+  margin-bottom:20px;
+
+}
+
+
+
+.metrics-progress span {
+
+  color:#555;
+
+  font-size:16px;
+
+}
+
+
+
+.metrics-progress strong {
+
+  color:#141754;
+
+  font-size:38px;
+
+}
+
+
+
+
+
+.metrics-progress-line {
+
+  height:14px;
+
+  background:#eeeeF5;
+
+  border-radius:20px;
+
+  overflow:hidden;
+
+}
+
+
+
+.metrics-progress-line div {
+
+  height:100%;
+
+  background:#141754;
+
+  border-radius:20px;
+
+  transition:.3s ease;
+
+}
+
+
+
+
+
+
+/* METRICS LIST */
+
+
+.metrics-list {
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:20px;
+
+}
+
+
+
+
+
+
+
+.metric-card {
+
+  background:white;
+
+  border:1px solid #e7e7ef;
+
+  border-radius:28px;
+
+  padding:30px;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+
+  gap:30px;
+
+  transition:.3s;
+
+}
+
+
+
+.metric-card:hover {
+
+  transform:translateY(-4px);
+
+  box-shadow:
+
+  0 15px 35px rgba(20,23,84,.1);
+
+}
+
+
+
+
+
+
+
+.metric-card label {
+
+  color:#141754;
+
+  font-size:18px;
+
+  font-weight:600;
+
+}
+
+
+
+
+
+.metric-card input {
+
+  width:260px;
+
+  padding:15px 18px;
+
+  border-radius:14px;
+
+  border:1px solid #ddd;
+
+  font-size:16px;
+
+  color:#141754;
+
+  outline:none;
+
+}
+
+
+
+.metric-card input::placeholder {
+
+  color:#999;
+
+}
+
+
+
+.metric-card input:focus {
+
+  border-color:#141754;
+
+}
+
+
+
+
+
+
+
+
+/* BUTTON */
+
+
+.dashboard-main-button {
+
+  display:inline-flex;
+
+  margin-top:35px;
+
+  padding:16px 30px;
+
+  border-radius:14px;
+
+  background:#141754;
+
+  color:white;
+
+  font-weight:600;
+
+  transition:.3s;
+
+}
+
+
+
+.dashboard-main-button:hover {
+
+  background:#AE0001;
+
+}
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+
+
+@media(max-width:768px){
+
+
+.metrics {
+
+  padding:40px 0;
+
+}
+
+
+
+.metrics-header h1 {
+
+  font-size:30px;
+
+}
+
+
+
+.metrics-header p {
+
+  font-size:15px;
+
+}
+
+
+
+
+
+.metrics-progress {
+
+  padding:20px;
+
+  margin:25px 0;
+
+}
+
+
+
+.metrics-progress span {
+
+  font-size:14px;
+
+}
+
+
+
+.metrics-progress strong {
+
+  font-size:28px;
+
+}
+
+
+
+.metrics-progress-line {
+
+  height:10px;
+
+}
+
+
+
+
+
+
+
+.metric-card {
+
+  padding:22px;
+
+  border-radius:22px;
+
+  flex-direction:column;
+
+  align-items:flex-start;
+
+  gap:15px;
+
+}
+
+
+
+.metric-card label {
+
+  font-size:16px;
+
+}
+
+
+
+.metric-card input {
+
+  width:100%;
+
+  font-size:16px;
+
+}
+
+
+
+
+
+
+.dashboard-main-button {
+
+  width:100%;
+
+  justify-content:center;
+
+  text-align:center;
+
+}
+
+
+
+}
