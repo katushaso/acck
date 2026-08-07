@@ -1,75 +1,43 @@
-# React + TypeScript + Vite
+# 🏆 Единый региональный пакет ко Дню студенческого спорта
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Цифровой конструктор подготовки спортивного события для региональных отделений АССК России.
 
-Currently, two official plugins are available:
+Проект помогает организаторам быстро подготовить мероприятие: выбрать подходящий сценарий, распределить роли команды, контролировать готовность и сформировать итоговый пакет события.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 💡 О проекте
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Организация студенческого спортивного события требует координации множества процессов: от выбора формата и подготовки площадки до работы команды и анализа результатов.
 
-## Expanding the ESLint configuration
+Данный сервис объединяет основные этапы подготовки в единую цифровую систему:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- подбор сценария мероприятия;
+- пошаговый чек-лист подготовки;
+- распределение ролей команды;
+- сбор ключевых метрик;
+- контроль общей готовности события.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
+### 🎯 Конструктор мероприятия
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Пользователь отвечает на несколько вопросов:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- количество спортивных клубов;
+- доступные ресурсы региона;
+- предполагаемое количество участников.
 
-```
+На основе ответов система подбирает оптимальный сценарий мероприятия.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠 Технологии
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Frontend:
 
-```
+- React
+- React Router
+- Vite
+- JavaScript (JSX)
+- CSS3
+- LocalStorage
